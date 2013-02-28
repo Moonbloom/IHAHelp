@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="FirstSemesterClick"
+        android:text="@string/FirstSemester"
+   		android:id="@+id/FirstSemester"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="SecondSemesterClick"
+        android:text="@string/SecondSemester"
+        android:id="@+id/SecondSemester"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+		android:onClick="ThirdSemesterClick"
+        android:text="@string/ThirdSemester"
+        android:id="@+id/ThirdSemester"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+		android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="FourthSemesterClick"
+        android:text="@string/FourthSemester"   
+        android:id="@+id/FourthSemester"     
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="FifthSemesterClick"
+        android:text="@string/FifthSemester"
+        android:id="@+id/FifthSemester"         
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="SixthSemesterClick"
+        android:text="@string/SixthSemester"
+        android:id="@+id/SixthSemester"      
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="SeventhSemesterClick"
+        android:text="@string/SeventhSemester"
+        android:id="@+id/SeventhSemester"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+</LinearLayout>

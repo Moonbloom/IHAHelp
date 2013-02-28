@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moon.ihahelp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.moon.ihahelp.SelectSemester"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.FirstSemesterPickClass"
+            android:label="@string/title_activity_first_semester_pick_class"
+            android:parentActivityName="com.moon.ihahelp.SelectSemester" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.SelectSemester" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.SecondSemesterPickClass"
+            android:label="@string/title_activity_second_semester_pick_class"
+            android:parentActivityName="com.moon.ihahelp.SelectSemester" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.SelectSemester" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.ThirdSemesterPickClass"
+            android:label="@string/title_activity_third_semester_pick_class"
+            android:parentActivityName="com.moon.ihahelp.SelectSemester" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.SelectSemester" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.FourthSemesterPickClass"
+            android:label="@string/title_activity_fourth_semester_pick_class"
+            android:parentActivityName="com.moon.ihahelp.SelectSemester" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.SelectSemester" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.FifthSemesterPickClass"
+            android:label="@string/title_activity_fifth_semester_pick_class"
+            android:parentActivityName="com.moon.ihahelp.SelectSemester" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.SelectSemester" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.SixthSemesterPickClass"
+            android:label="@string/title_activity_sixth_semester_pick_class"
+            android:parentActivityName="com.moon.ihahelp.SelectSemester" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.SelectSemester" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.SeventhSemesterPickClass"
+            android:label="@string/title_activity_seventh_semester_pick_class"
+            android:parentActivityName="com.moon.ihahelp.SelectSemester" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.SelectSemester" />
+        </activity>
+    </application>
+
+</manifest>

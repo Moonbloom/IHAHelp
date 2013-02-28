@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IHA Help</string>
+    <string name="title_activity_first_semester_pick_class">1. Semester - Pick Class</string>
+    <string name="title_activity_second_semester_pick_class">2. Semester - Pick Class</string>
+    <string name="title_activity_third_semester_pick_class">3. Semester - Pick Class</string>
+    <string name="title_activity_fourth_semester_pick_class">4. Semester - Pick Class</string>
+    <string name="title_activity_fifth_semester_pick_class">5. Semester - Pick Class</string>
+    <string name="title_activity_sixth_semester_pick_class">6. Semester - Pick Class</string>
+    <string name="title_activity_seventh_semester_pick_class">7. Semester - Pick Class</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- These are strings for all Semester names -->
+    <string name="FirstSemester">1. Semester</string>
+    <string name="SecondSemester">2. Semester</string>
+    <string name="ThirdSemester">3. Semester</string>
+    <string name="FourthSemester">4. Semester</string>
+    <string name="FifthSemester">5. Semester</string>
+    <string name="SixthSemester">6. Semester</string>
+    <string name="SeventhSemester">7. Semester</string>
+
+    <!-- These are strings for 1st Semester class names -->
+    <string name="IDE">IDE</string>
+    <string name="IKLT">IKLT</string>
+    <string name="MMLS">MMLS</string>
+    <string name="PRJ1">PRJ1</string>
+    <string name="VPR">VPR</string>
+    <string name="MSYS">MSYS</string>
+    <string name="OPRG">OPRG</string>
+
+    <!-- These are strings for 2nd Semester class names -->
+    <string name="ASB">ASB</string>
+    <string name="DSD">DSD</string>
+    <string name="MSA">MSA</string>
+    <string name="PRJ2">PRJ2</string>
+    <string name="ISE">ISE</string>
+    <string name="OOP">OOP</string>
+
+    <!-- These are color codes, usable throughout the entire app -->
+    <color name="Blue">#38C0F4</color>
+    <color name="Green">#36c809</color>
+    <color name="Red">#e50000</color>
+
+    <string name="hello_world">This is a placeholder page.</string>
+
+
+</resources>
