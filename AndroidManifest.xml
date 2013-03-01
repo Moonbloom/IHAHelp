@@ -78,6 +78,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moon.ihahelp.SelectSemester" />
         </activity>
+        <activity
+            android:name="com.moon.ihahelp.E1IDE"
+            android:label="@string/title_activity_ide"
+            android:parentActivityName="com.moon.ihahelp.FirstSemesterPickClass" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FirstSemesterPickClass" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.E1IKLT"
+            android:label="@string/title_activity_e1_iklt"
+            android:parentActivityName="com.moon.ihahelp.FirstSemesterPickClass" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FirstSemesterPickClass" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.E1MMLS"
+            android:label="@string/title_activity_e1_mmls"
+            android:parentActivityName="com.moon.ihahelp.FirstSemesterPickClass" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FirstSemesterPickClass" />
+        </activity>
     </application>
 
 </manifest>

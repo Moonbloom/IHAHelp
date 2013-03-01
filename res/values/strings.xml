@@ -29,6 +29,11 @@
     <string name="MSYS">MSYS</string>
     <string name="OPRG">OPRG</string>
 
+    <!-- These are strings for 1st Semester head lines -->
+    <string name="title_activity_ide">IDE</string>
+    <string name="title_activity_e1_iklt">IKLT</string>
+    <string name="title_activity_e1_mmls">MMLS</string>
+
     <!-- These are strings for 2nd Semester class names -->
     <string name="ASB">ASB</string>
     <string name="DSD">DSD</string>

@@ -33,51 +33,57 @@ public final class R {
     public static final class id {
         public static final int ASB=0x7f090007;
         public static final int DSD=0x7f090008;
+        public static final int E1IDE=0x7f090000;
+        public static final int E1IKLT=0x7f090001;
+        public static final int E1MMLS=0x7f090002;
+        public static final int E1MSYS=0x7f090005;
+        public static final int E1OPRG=0x7f090006;
+        public static final int E1PRJ1=0x7f090003;
+        public static final int E1VPR=0x7f090004;
         public static final int FifthSemester=0x7f090011;
         public static final int FirstSemester=0x7f09000d;
         public static final int FourthSemester=0x7f090010;
-        public static final int IDE=0x7f090000;
-        public static final int IKLT=0x7f090001;
         public static final int ISE=0x7f09000b;
-        public static final int MMLS=0x7f090002;
         public static final int MSA=0x7f090009;
-        public static final int MSYS=0x7f090005;
         public static final int OOP=0x7f09000c;
-        public static final int OPRG=0x7f090006;
-        public static final int PRJ1=0x7f090003;
         public static final int PRJ2=0x7f09000a;
         public static final int SecondSemester=0x7f09000e;
         public static final int SeventhSemester=0x7f090013;
         public static final int SixthSemester=0x7f090012;
         public static final int ThirdSemester=0x7f09000f;
-        public static final int VPR=0x7f090004;
         public static final int action_settings=0x7f090014;
     }
     public static final class layout {
-        public static final int activity_fifth_semester_pick_class=0x7f030000;
-        public static final int activity_first_semester_pick_class=0x7f030001;
-        public static final int activity_fourth_semester_pick_class=0x7f030002;
-        public static final int activity_second_semester_pick_class=0x7f030003;
-        public static final int activity_select_semester=0x7f030004;
-        public static final int activity_seventh_semester_pick_class=0x7f030005;
-        public static final int activity_sixth_semester_pick_class=0x7f030006;
-        public static final int activity_third_semester_pick_class=0x7f030007;
+        public static final int activity_e1_iklt=0x7f030000;
+        public static final int activity_e1_mmls=0x7f030001;
+        public static final int activity_e1ide=0x7f030002;
+        public static final int activity_fifth_semester_pick_class=0x7f030003;
+        public static final int activity_first_semester_pick_class=0x7f030004;
+        public static final int activity_fourth_semester_pick_class=0x7f030005;
+        public static final int activity_second_semester_pick_class=0x7f030006;
+        public static final int activity_select_semester=0x7f030007;
+        public static final int activity_seventh_semester_pick_class=0x7f030008;
+        public static final int activity_sixth_semester_pick_class=0x7f030009;
+        public static final int activity_third_semester_pick_class=0x7f03000a;
     }
     public static final class menu {
-        public static final int fifth_semester_pick_class=0x7f080000;
-        public static final int first_semester_pick_class=0x7f080001;
-        public static final int fourth_semester_pick_class=0x7f080002;
-        public static final int second_semester_pick_class=0x7f080003;
-        public static final int select_semester=0x7f080004;
-        public static final int seventh_semester_pick_class=0x7f080005;
-        public static final int sixth_semester_pick_class=0x7f080006;
-        public static final int third_semester_pick_class=0x7f080007;
+        public static final int e1_iklt=0x7f080000;
+        public static final int e1_mml=0x7f080001;
+        public static final int fifth_semester_pick_class=0x7f080002;
+        public static final int first_semester_pick_class=0x7f080003;
+        public static final int fourth_semester_pick_class=0x7f080004;
+        public static final int ide=0x7f080005;
+        public static final int second_semester_pick_class=0x7f080006;
+        public static final int select_semester=0x7f080007;
+        public static final int seventh_semester_pick_class=0x7f080008;
+        public static final int sixth_semester_pick_class=0x7f080009;
+        public static final int third_semester_pick_class=0x7f08000a;
     }
     public static final class string {
         /**  These are strings for 2nd Semester class names 
          */
-        public static final int ASB=0x7f050017;
-        public static final int DSD=0x7f050018;
+        public static final int ASB=0x7f05001a;
+        public static final int DSD=0x7f05001b;
         public static final int FifthSemester=0x7f05000d;
         /**  These are strings for all Semester names 
          */
@@ -87,14 +93,14 @@ public final class R {
          */
         public static final int IDE=0x7f050010;
         public static final int IKLT=0x7f050011;
-        public static final int ISE=0x7f05001b;
+        public static final int ISE=0x7f05001e;
         public static final int MMLS=0x7f050012;
-        public static final int MSA=0x7f050019;
+        public static final int MSA=0x7f05001c;
         public static final int MSYS=0x7f050015;
-        public static final int OOP=0x7f05001c;
+        public static final int OOP=0x7f05001f;
         public static final int OPRG=0x7f050016;
         public static final int PRJ1=0x7f050013;
-        public static final int PRJ2=0x7f05001a;
+        public static final int PRJ2=0x7f05001d;
         public static final int SecondSemester=0x7f05000a;
         public static final int SeventhSemester=0x7f05000f;
         public static final int SixthSemester=0x7f05000e;
@@ -102,10 +108,15 @@ public final class R {
         public static final int VPR=0x7f050014;
         public static final int action_settings=0x7f050008;
         public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f05001d;
+        public static final int hello_world=0x7f050020;
+        public static final int title_activity_e1_iklt=0x7f050018;
+        public static final int title_activity_e1_mmls=0x7f050019;
         public static final int title_activity_fifth_semester_pick_class=0x7f050005;
         public static final int title_activity_first_semester_pick_class=0x7f050001;
         public static final int title_activity_fourth_semester_pick_class=0x7f050004;
+        /**  These are strings for 1st Semester head lines 
+         */
+        public static final int title_activity_ide=0x7f050017;
         public static final int title_activity_second_semester_pick_class=0x7f050002;
         public static final int title_activity_seventh_semester_pick_class=0x7f050007;
         public static final int title_activity_sixth_semester_pick_class=0x7f050006;
