@@ -8,12 +8,12 @@ import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
 import android.os.Build;
 
-public class SixthSemesterPickClass extends Activity {
+public class FourthSemesterPickLine extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_sixth_semester_pick_class);
+		setContentView(R.layout.activity_fourth_semester_pick_line);
 		// Show the Up button in the action bar.
 		setupActionBar();
 	}
@@ -31,7 +31,7 @@ public class SixthSemesterPickClass extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.sixth_semester_pick_class, menu);
+		getMenuInflater().inflate(R.menu.fourth_semester_pick_class, menu);
 		return true;
 	}
 

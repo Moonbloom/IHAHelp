@@ -14,75 +14,74 @@ public class SelectSemester extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_select_semester);
-
 		
 		Button FirstSemester = (Button) findViewById(R.id.FirstSemester);
 		FirstSemester.setOnClickListener(new OnClickListener() 
 			{
-				public void onClick(View v) 
+				public void onClick(View viewName) 
 				{
-					Intent intent = new Intent(v.getContext(), FirstSemesterPickClass.class);
-					startActivityForResult(intent, 0); 
+					Intent intentName = new Intent(viewName.getContext(), FirstSemesterPickClass.class);
+					startActivityForResult(intentName, 0); 
 				}
 			} );
 		
 		Button SecondSemester = (Button) findViewById(R.id.SecondSemester);
 		SecondSemester.setOnClickListener(new OnClickListener() 
 			{
-				public void onClick(View v) 
+				public void onClick(View viewName) 
 				{
-					Intent intent = new Intent(v.getContext(), SecondSemesterPickClass.class);
-					startActivityForResult(intent, 0); 
+					Intent intentName = new Intent(viewName.getContext(), SecondSemesterPickClass.class);
+					startActivityForResult(intentName, 0); 
 				}
 			} );
-					
+					 
 		Button ThirdSemester = (Button) findViewById(R.id.ThirdSemester);
 		ThirdSemester.setOnClickListener(new OnClickListener() 
 			{
-				public void onClick(View v) 
+				public void onClick(View viewName) 
 				{
-					Intent intent = new Intent(v.getContext(), ThirdSemesterPickClass.class);
-					startActivityForResult(intent, 0); 
+					Intent intentName = new Intent(viewName.getContext(), ThirdSemesterPickClass.class);
+					startActivityForResult(intentName, 0); 
 				}
 			} );
 		
 		Button FourthSemester = (Button) findViewById(R.id.FourthSemester);
 		FourthSemester.setOnClickListener(new OnClickListener() 
 			{
-				public void onClick(View v) 
+				public void onClick(View viewName) 
 				{
-					Intent intent = new Intent(v.getContext(), FourthSemesterPickClass.class);
-					startActivityForResult(intent, 0); 
+					Intent intentName = new Intent(viewName.getContext(), FourthSemesterPickLine.class);
+					startActivityForResult(intentName, 0); 
 				}
 			} );
 		
 		Button FifthSemester = (Button) findViewById(R.id.FifthSemester);
 		FifthSemester.setOnClickListener(new OnClickListener() 
 			{
-				public void onClick(View v) 
+				public void onClick(View viewName) 
 				{
-					Intent intent = new Intent(v.getContext(), FifthSemesterPickClass.class);
-					startActivityForResult(intent, 0); 
+					Intent intentName = new Intent(viewName.getContext(), FifthSemesterInternship.class);
+					startActivityForResult(intentName, 0); 
 				}
 			} );
 		
 		Button SixthSemester = (Button) findViewById(R.id.SixthSemester);
 		SixthSemester.setOnClickListener(new OnClickListener() 
 			{
-				public void onClick(View v) 
+				public void onClick(View viewName) 
 				{
-					Intent intent = new Intent(v.getContext(), SixthSemesterPickClass.class);
-					startActivityForResult(intent, 0); 
+					Intent intentName = new Intent(viewName.getContext(), SixthSemesterPickLine.class);
+					startActivityForResult(intentName, 0); 
 				}
 			} );
 		
 		Button SeventhSemester = (Button) findViewById(R.id.SeventhSemester);
 		SeventhSemester.setOnClickListener(new OnClickListener() 
 			{
-				public void onClick(View v) 
+				public void onClick(View viewName) 
 				{
-					Intent intent = new Intent(v.getContext(), SeventhSemesterPickClass.class);
-					startActivityForResult(intent, 0); 
+					Intent intentName = new Intent(viewName.getContext(), SeventhSemesterPickLine.class);
+					startActivityForResult(intentName, 0); 
 				}
 			} );
 				

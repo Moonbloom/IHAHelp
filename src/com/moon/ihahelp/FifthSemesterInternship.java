@@ -8,12 +8,12 @@ import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
 import android.os.Build;
 
-public class FifthSemesterPickClass extends Activity {
+public class FifthSemesterInternship extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_fifth_semester_pick_class);
+		setContentView(R.layout.activity_fifth_semester_internship);
 		// Show the Up button in the action bar.
 		setupActionBar();
 	}

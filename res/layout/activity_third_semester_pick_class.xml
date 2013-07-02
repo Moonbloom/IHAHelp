@@ -1,16 +1,76 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".ThirdSemesterPickClass" >
+    android:orientation="vertical"
+    android:background="@drawable/black_tiles_background" >
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/DSB"
+        android:id="@+id/E3DSB"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/MSE"
+        android:id="@+id/E3MSE"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
 
-</RelativeLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/PRJ3"
+        android:id="@+id/E3PRJ3"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+		android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/GFV" 
+        android:id="@+id/I3GFV"       
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/ISU"   
+        android:id="@+id/I3GSU"      
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+         android:text="@string/MPS" 
+        android:id="@+id/I3MPS"     
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>
