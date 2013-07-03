@@ -1,12 +1,10 @@
 package com.moon.ihahelp;
 
 import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
 import android.annotation.TargetApi;
 import android.os.Build;
 
-public class SixthSemesterPickLine extends Activity {
+public class SixthSemesterPickLine extends ExtendsDefault {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +22,5 @@ public class SixthSemesterPickLine extends Activity {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
 		}
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.sixth_semester_pick_class, menu);
-		return true;
 	}
 }

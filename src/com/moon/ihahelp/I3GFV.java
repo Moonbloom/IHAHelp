@@ -1,12 +1,10 @@
 package com.moon.ihahelp;
 
 import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
 import android.annotation.TargetApi;
 import android.os.Build;
 
-public class I3GFV extends Activity {
+public class I3GFV extends ExtendsDefault {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +22,5 @@ public class I3GFV extends Activity {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
 		}
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.i3_gfv, menu);
-		return true;
 	}
 }
