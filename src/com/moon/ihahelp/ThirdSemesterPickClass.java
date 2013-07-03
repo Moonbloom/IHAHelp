@@ -3,9 +3,11 @@ package com.moon.ihahelp;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.os.Build;
 
 public class ThirdSemesterPickClass extends Activity {
@@ -16,6 +18,67 @@ public class ThirdSemesterPickClass extends Activity {
 		setContentView(R.layout.activity_third_semester_pick_class);
 		// Show the Up button in the action bar.
 		setupActionBar();
+		
+		Button E3DSB = (Button) findViewById(R.id.E3DSB);
+		E3DSB.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), E3DSB.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
+		Button E3MSE = (Button) findViewById(R.id.E3MSE);
+		E3MSE.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), E3MSE.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
+		Button E3PRJ3 = (Button) findViewById(R.id.E3PRJ3);
+		E3PRJ3.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), E3PRJ3.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+	
+		Button I3GFV = (Button) findViewById(R.id.I3GFV);
+		I3GFV.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), I3GFV.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
+		Button I3ISU = (Button) findViewById(R.id.I3ISU);
+		I3ISU.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), I3ISU.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
+		Button I3MPS = (Button) findViewById(R.id.I3MPS);
+		I3MPS.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), I3MPS.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
 	}
 
 	/**
@@ -34,22 +97,4 @@ public class ThirdSemesterPickClass extends Activity {
 		getMenuInflater().inflate(R.menu.third_semester_pick_class, menu);
 		return true;
 	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case android.R.id.home:
-			// This ID represents the Home or Up button. In the case of this
-			// activity, the Up button is shown. Use NavUtils to allow users
-			// to navigate up one level in the application structure. For
-			// more details, see the Navigation pattern on Android Design:
-			//
-			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
-			//
-			NavUtils.navigateUpFromSameTask(this);
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
-
 }

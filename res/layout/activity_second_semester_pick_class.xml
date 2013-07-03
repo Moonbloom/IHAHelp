@@ -13,19 +13,8 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/ASB"
-        android:id="@+id/ASB"
+        android:id="@+id/E2ASB"
         android:textSize="25sp" 
-        android:textColor="@color/Blue"
-        android:background="@android:color/transparent" />
-
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/DSD"
-        android:id="@+id/DSD"
-        android:textSize="25sp"
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
 
@@ -35,19 +24,19 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/MSA"
-        android:id="@+id/MSA"
+        android:id="@+id/E2MSA"
         android:textSize="25sp" 
         android:textColor="@color/Blue"
 		android:background="@android:color/transparent" />
-
+    
     <Button
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/PRJ2" 
-        android:id="@+id/PRJ2"       
-        android:textSize="25sp" 
+        android:text="@string/ISE" 
+        android:id="@+id/I2ISE"        
+        android:textSize="25sp"
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
     
@@ -56,8 +45,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/ISE" 
-        android:id="@+id/ISE"        
+        android:text="@string/DSD"
+        android:id="@+id/E2DSD"
         android:textSize="25sp"
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
@@ -68,8 +57,19 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/OOP" 
-        android:id="@+id/OOP"     
+        android:id="@+id/I2OOP"     
         android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/PRJ2" 
+        android:id="@+id/E2PRJ2"       
+        android:textSize="25sp" 
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
     

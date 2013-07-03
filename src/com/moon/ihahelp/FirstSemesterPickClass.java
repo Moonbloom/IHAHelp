@@ -5,9 +5,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -50,6 +48,47 @@ public class FirstSemesterPickClass extends Activity {
 					startActivityForResult(intent, 0); 
 				}
 			} );
+		
+		Button E1PRJ1 = (Button) findViewById(R.id.E1PRJ1);
+		E1PRJ1.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), E1PRJ1.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
+		Button E1VPR1 = (Button) findViewById(R.id.E1VPR1);
+		E1VPR1.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), E1VPR1.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
+		Button I1MSYS = (Button) findViewById(R.id.I1MSYS);
+		I1MSYS.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), I1MSYS.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
+		Button I1OPRG = (Button) findViewById(R.id.I1OPRG);
+		I1OPRG.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View v) 
+				{
+					Intent intent = new Intent(v.getContext(), I1OPRG.class);
+					startActivityForResult(intent, 0); 
+				}
+			} );
+		
 	}
 
 	/**
@@ -68,22 +107,4 @@ public class FirstSemesterPickClass extends Activity {
 		getMenuInflater().inflate(R.menu.first_semester_pick_class, menu);
 		return true;
 	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case android.R.id.home:
-			// This ID represents the Home or Up button. In the case of this
-			// activity, the Up button is shown. Use NavUtils to allow users
-			// to navigate up one level in the application structure. For
-			// more details, see the Navigation pattern on Android Design:
-			//
-			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
-			//
-			NavUtils.navigateUpFromSameTask(this);
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
-
 }

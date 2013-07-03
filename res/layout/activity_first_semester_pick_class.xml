@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/black_tiles_background" >
-    
+
     <Button
         android:layout_width="fill_parent"
         android:layout_height="0dp"
@@ -39,36 +39,14 @@
         android:textSize="25sp" 
         android:textColor="@color/Blue"
 		android:background="@android:color/transparent" />
-
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/PRJ1" 
-        android:id="@+id/E1PRJ1"       
-        android:textSize="25sp" 
-        android:textColor="@color/Blue"
-        android:background="@android:color/transparent" />
-    
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/VPR"   
-        android:id="@+id/E1VPR"      
-        android:textSize="25sp"
-        android:textColor="@color/Blue"
-        android:background="@android:color/transparent" />
-    
+        
     <Button
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
          android:text="@string/MSYS" 
-        android:id="@+id/E1MSYS"     
+        android:id="@+id/I1MSYS"
         android:textSize="25sp"
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
@@ -79,8 +57,30 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/OPRG"
-        android:id="@+id/E1OPRG"
+        android:id="@+id/I1OPRG"
         android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/VPR"
+        android:id="@+id/E1VPR1"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/PRJ1" 
+        android:id="@+id/E1PRJ1"       
+        android:textSize="25sp" 
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
     

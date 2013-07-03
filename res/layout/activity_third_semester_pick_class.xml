@@ -34,17 +34,6 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/PRJ3"
-        android:id="@+id/E3PRJ3"
-        android:textSize="25sp" 
-        android:textColor="@color/Blue"
-		android:background="@android:color/transparent" />
-
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
         android:text="@string/GFV" 
         android:id="@+id/I3GFV"       
         android:textSize="25sp" 
@@ -57,7 +46,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/ISU"   
-        android:id="@+id/I3GSU"      
+        android:id="@+id/I3ISU"      
         android:textSize="25sp"
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
@@ -67,10 +56,21 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-         android:text="@string/MPS" 
+         android:text="@string/MPS"
         android:id="@+id/I3MPS"     
         android:textSize="25sp"
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/PRJ3"
+        android:id="@+id/E3PRJ3"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+		android:background="@android:color/transparent" />
 
 </LinearLayout>

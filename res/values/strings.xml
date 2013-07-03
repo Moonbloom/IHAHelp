@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!-- Application Name string -->
+
+    <!-- Application Name string -->
     <string name="app_name">IHA Help</string>
-    
+
     <!-- These are strings for all Semester names (Front page) -->
     <string name="FirstSemester">1. Semester</string>
     <string name="SecondSemester">2. Semester</string>
@@ -11,7 +12,7 @@
     <string name="FifthSemester">5. Semester</string>
     <string name="SixthSemester">6. Semester</string>
     <string name="SeventhSemester">7. Semester</string>
-    
+
     <!-- These are strings for each Semester pages head lines -->
     <string name="title_activity_first_semester_pick_class">1. Semester - Pick a class</string>
     <string name="title_activity_second_semester_pick_class">2. Semester - Pick a class</string>
@@ -20,7 +21,6 @@
     <string name="title_activity_fifth_semester_internship">5. Semester - Internship</string>
     <string name="title_activity_sixth_semester_pick_line">6. Semester - Pick a class</string>
     <string name="title_activity_seventh_semester_pick_line">7. Semester - Pick a class</string>
-
 
     <!-- These are strings for 1st Semester class names -->
     <string name="IDE">IDE</string>
@@ -35,6 +35,10 @@
     <string name="title_activity_e1_ide">IDE</string>
     <string name="title_activity_e1_iklt">IKLT</string>
     <string name="title_activity_e1_mmls">MMLS</string>
+    <string name="title_activity_e1_prj1">PRJ1</string>
+    <string name="title_activity_e1_vpr1">VPR</string>
+    <string name="title_activity_i1_msys">MSYS</string>
+    <string name="title_activity_i1_oprg">OPRG</string>
 
     <!-- These are strings for 2nd Semester class names -->
     <string name="ASB">ASB</string>
@@ -43,10 +47,10 @@
     <string name="PRJ2">PRJ2</string>
     <string name="ISE">ISE</string>
     <string name="OOP">OOP</string>
-    
+
     <!-- These are strings for 2nd Semester head lines -->
-    
-    
+    <string name="title_activity_e2_asb">ASB</string>
+
     <!-- These are strings for 3rd Semester class names -->
     <string name="DSB">DSB</string>
     <string name="MSE">MSE</string>
@@ -54,25 +58,76 @@
     <string name="GFV">GFV</string>
     <string name="ISU">ISU</string>
     <string name="MPS">MPS</string>
-    
+
     <!-- These are strings for 3rd Semester head lines -->
-    
-    
-    
+
+
     <!-- These are strings for 5th Semester -->
     <string name="Praktik1">You are at an internship this semester.</string>
     <string name="Praktik2">There are no classes and therefore no notes.</string>
-    
-    
+
+    <!-- Detailed class names -->
+    <string name="E1IDE">Indledende digital elektronik</string>
+    <string name="E1IKLT">Indledende kredsløbsteknik</string>
+    <string name="E1MMLS">Matematisk Modellering af Lineære Systemer</string>
+    <string name="E1PRJ1">Semester Projekt 1</string>
+    <string name="E1VPR1">Værkstedspraktik</string>
+    <string name="I1MSYS">Microcontroller systemer</string>
+    <string name="I1OPRG">Objektbaseret programmering</string>
+    <string name="E2ASB">Analog Signalbehandling</string>
+    <string name="E2DSD">Digitalt Systemdesign</string>
+    <string name="E2MSA">Matematisk System Analyse</string>
+    <string name="E2PRJ2">Semester Projekt 2</string>
+    <string name="I2ISE">Indledende System Engineering</string>
+    <string name="I2OOP">Object orienteret programmering</string>
+    <string name="E3DSB">Digital Signalbehandling</string>
+    <string name="E3MSE">Mixed-signal elektronik</string>
+    <string name="E3PRJ3">Semester Projekt 3</string>
+    <string name="I3GFV">Grænseflader til den fysiske verden</string>
+    <string name="I3ISU">Indlejret software udvikling</string>
+    <string name="I3MPS">Microprocessor systemer</string>
+    <string name="E4ASD">Analog System Design</string>
+    <string name="E4DSA">Introduktion til Digital Signalanalyse</string>
+    <string name="E4EFYS">Elektrofysik</string>
+    <string name="E4IPR1">Praktikforberedelse</string>
+    <string name="E4IRT">Introduktion til reguleringsteknik</string>
+    <string name="E4PRJ4">Semester Projekt 4</string>
+    <string name="EP4EEV">Energi og effekt i vekselsstrømsystemer</string>
+    <string name="EP4IOA">Instrumentering og Automatisering</string>
+    <string name="EP4IPR">Praktikforberedelse</string>
+    <string name="EP4PRJ">Semester Projekt 4</string>
+    <string name="I4DAB">Databaser</string>
+    <string name="I4GUI">GUI programmering</string>
+    <string name="I4IKN">Introduktion til kommunikationsnetværk</string>
+    <string name="I4IPR1">Praktikforberedelse</string>
+    <string name="I4PRJ4">Semester Projekt 4</string>
+    <string name="I4SWD">Software design</string>
+    <string name="I4SWT">Software test</string>
+    <string name="E5IPR1">Ingeniørpraktik</string>
+    <string name="EP5IPR">Ingeniørpraktik</string>
+    <string name="I5IPR1">Ingeniørpraktik</string>
+
     <!-- These are color codes, usable throughout the entire app -->
     <color name="Blue">#38C0F4</color>
     <color name="Green">#36c809</color>
     <color name="Red">#e50000</color>
     <color name="White">#FFFFFF</color>
-    
+
     <!-- Extra -->
     <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
     <string name="NYI">This page is NYI - Not Yet Implemented.</string>
-
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_e2_ms">E2MSA</string>
+    <string name="title_activity_e2_dsd">E2DSD</string>
+    <string name="title_activity_e2_prj2">E2PRJ2</string>
+    <string name="title_activity_i2_ise">I2ISE</string>
+    <string name="title_activity_i2_oop">I2OOP</string>
+    <string name="title_activity_e3_dsb">E3DSB</string>
+    <string name="title_activity_e3_mse">E3MSE</string>
+    <string name="title_activity_e3_prj3">E3PRJ3</string>
+    <string name="title_activity_i3_gfv">I3GFV</string>
+    <string name="title_activity_i3_isu">I3ISU</string>
+    <string name="title_activity_i3_mps">I3MPS</string>
 
 </resources>
