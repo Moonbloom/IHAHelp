@@ -17,10 +17,10 @@
     <string name="title_activity_first_semester_pick_class">1. Semester - Pick a class</string>
     <string name="title_activity_second_semester_pick_class">2. Semester - Pick a class</string>
     <string name="title_activity_third_semester_pick_class">3. Semester - Pick a class</string>
-    <string name="title_activity_fourth_semester_pick_line">4. Semester - Pick a class</string>
+    <string name="title_activity_fourth_semester_pick_line">4. Semester - Pick a line</string>
     <string name="title_activity_fifth_semester_internship">5. Semester - Internship</string>
-    <string name="title_activity_sixth_semester_pick_line">6. Semester - Pick a class</string>
-    <string name="title_activity_seventh_semester_pick_line">7. Semester - Pick a class</string>
+    <string name="title_activity_sixth_semester_pick_line">6. Semester - Pick a line</string>
+    <string name="title_activity_seventh_semester_pick_line">7. Semester - Pick a line</string>
 
     <!-- These are strings for 1st Semester class names -->
     <string name="IDE">IDE</string>
@@ -50,11 +50,11 @@
 
     <!-- These are strings for 2nd Semester head lines -->
     <string name="title_activity_e2_asb">ASB</string>
-    <string name="title_activity_e2_ms">E2MSA</string>
-    <string name="title_activity_e2_dsd">E2DSD</string>
-    <string name="title_activity_e2_prj2">E2PRJ2</string>
-    <string name="title_activity_i2_ise">I2ISE</string>
-    <string name="title_activity_i2_oop">I2OOP</string>
+    <string name="title_activity_e2_ms">MSA</string>
+    <string name="title_activity_e2_dsd">DSD</string>
+    <string name="title_activity_e2_prj2">PRJ2</string>
+    <string name="title_activity_i2_ise">ISE</string>
+    <string name="title_activity_i2_oop">OOP</string>
 
     <!-- These are strings for 3rd Semester class names -->
     <string name="DSB">DSB</string>
@@ -65,20 +65,52 @@
     <string name="MPS">MPS</string>
 
     <!-- These are strings for 3rd Semester head lines -->
-    <string name="title_activity_e3_dsb">E3DSB</string>
-    <string name="title_activity_e3_mse">E3MSE</string>
-    <string name="title_activity_e3_prj3">E3PRJ3</string>
-    <string name="title_activity_i3_gfv">I3GFV</string>
-    <string name="title_activity_i3_isu">I3ISU</string>
-    <string name="title_activity_i3_mps">I3MPS</string>
+    <string name="title_activity_e3_dsb">DSB</string>
+    <string name="title_activity_e3_mse">MSE</string>
+    <string name="title_activity_e3_prj3">PRJ3</string>
+    <string name="title_activity_i3_gfv">GFV</string>
+    <string name="title_activity_i3_isu">ISU</string>
+    <string name="title_activity_i3_mps">MPS</string>
 
     <!-- These are strings for 4th Semester class names -->
-    
+    <!-- Fælles string navne -->
+    <string name="PRJ4">PRJ4</string>
+    <string name="IPR1">IPR1</string>
+    <!-- IKT -->
+    <string name="DAB">DAB</string>
+    <string name="GUI">GUI</string>
+    <string name="IKN">IKN</string>
+    <string name="SWD">SWD</string>
+    <string name="SWT">SWT</string>
+    <!-- Starkstrom (EP) -->
+    <string name="EEV">EEV</string>
+    <string name="IOA">IOA</string>
+    <!-- Elektro (E) -->
+    <string name="ASD">ASD</string>
+    <string name="DSA">DSA</string>
+    <string name="EFYS">EFYS</string>
+    <string name="IRT">IRT</string>
+
     <!-- These are strings for 4th Semester head lines -->
-    
+    <string name="title_activity_fourth_semester_ikt">4. Semester - IKT</string>
+    <string name="title_activity_fourth_semester_starkstrom">4. Semester - Stærkstrøm</string>
+    <string name="title_activity_fourth_semester_elektro">4. Semester - Elektro</string>
+
     <!-- These are strings for 5th Semester -->
     <string name="Praktik1">You are at an internship this semester.</string>
     <string name="Praktik2">There are no classes and therefore no notes.</string>
+
+    <!-- These are strings for 6th Semester class names -->
+
+
+    <!-- These are strings for 6th Semester head lines -->
+
+
+    <!-- These are strings for 7th Semester class names -->
+
+
+    <!-- These are strings for 7th Semester head lines -->
+
 
     <!-- Detailed class names -->
     <string name="E1IDE">Indledende digital elektronik</string>
@@ -121,6 +153,11 @@
     <string name="EP5IPR">Ingeniørpraktik</string>
     <string name="I5IPR1">Ingeniørpraktik</string>
 
+    <!-- These are strings for line names -->
+    <string name="IKT">IKT</string>
+    <string name="Starkstrom">Stærkstrøm</string>
+    <string name="Elektro">Elektro</string>
+
     <!-- These are color codes, usable throughout the entire app -->
     <color name="Blue">#38C0F4</color>
     <color name="Green">#36c809</color>
@@ -133,5 +170,5 @@
     <string name="action_email">Email me</string>
     <string name="NYI">This page is NYI - Not Yet Implemented.</string>
     <string name="hello_world">Hello world!</string>
-    
+
 </resources>

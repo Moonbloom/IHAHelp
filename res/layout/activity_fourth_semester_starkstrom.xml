@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="vertical" 
     android:background="@drawable/black_tiles_background" >
-
+    
     <Button
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/IKT"
-        android:id="@+id/IKT"
+        android:text="@string/EEV"
+        android:id="@+id/EP4EEV"
         android:textSize="25sp" 
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
@@ -23,21 +23,32 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/Starkstrom"
-        android:id="@+id/Starkstrom"
-        android:textSize="25sp"
-        android:textColor="@color/Blue"
-        android:background="@android:color/transparent" />
-
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/Elektro"
-        android:id="@+id/Elektro"
+        android:text="@string/IOA"
+        android:id="@+id/EP4IOA"
         android:textSize="25sp" 
         android:textColor="@color/Blue"
 		android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/IPR1" 
+        android:id="@+id/EP4IPR1"        
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/PRJ4"
+        android:id="@+id/EP4PRJ4"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
     
 </LinearLayout>

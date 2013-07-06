@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/black_tiles_background" >
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/ASD"
+        android:id="@+id/E4ASD"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/DSA"
+        android:id="@+id/E4DSA"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+		android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/EFYS" 
+        android:id="@+id/E4EFYS"        
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/IRT"
+        android:id="@+id/E4IRT"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/IPR1" 
+        android:id="@+id/E4IPR1"       
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/PRJ4" 
+        android:id="@+id/E4PRJ4"       
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+</LinearLayout>

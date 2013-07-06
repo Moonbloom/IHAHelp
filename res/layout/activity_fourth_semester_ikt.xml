@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/black_tiles_background" >
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/DAB"
+        android:id="@+id/I4DAB"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/GUI"
+        android:id="@+id/I4GUI"
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+		android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/IKN" 
+        android:id="@+id/I4IKN"        
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/SWD"
+        android:id="@+id/I4SWD"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/SWT" 
+        android:id="@+id/I4SWT"     
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/IPR1" 
+        android:id="@+id/I4IPR1"       
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/PRJ4" 
+        android:id="@+id/I4PRJ4"       
+        android:textSize="25sp" 
+        android:textColor="@color/Blue"
+        android:background="@android:color/transparent" />
+    
+</LinearLayout>

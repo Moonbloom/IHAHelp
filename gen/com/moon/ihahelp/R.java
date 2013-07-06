@@ -38,30 +38,50 @@ public final class R {
         public static final int E1MMLS=0x7f090002;
         public static final int E1PRJ1=0x7f090006;
         public static final int E1VPR1=0x7f090005;
-        public static final int E2ASB=0x7f090007;
-        public static final int E2DSD=0x7f09000a;
-        public static final int E2MSA=0x7f090008;
-        public static final int E2PRJ2=0x7f09000c;
-        public static final int E3DSB=0x7f090014;
-        public static final int E3MSE=0x7f090015;
-        public static final int E3PRJ3=0x7f090019;
-        public static final int FifthSemester=0x7f090011;
-        public static final int FirstSemester=0x7f09000d;
-        public static final int FourthSemester=0x7f090010;
+        public static final int E2ASB=0x7f09001b;
+        public static final int E2DSD=0x7f09001e;
+        public static final int E2MSA=0x7f09001c;
+        public static final int E2PRJ2=0x7f090020;
+        public static final int E3DSB=0x7f090028;
+        public static final int E3MSE=0x7f090029;
+        public static final int E3PRJ3=0x7f09002d;
+        public static final int E4ASD=0x7f090007;
+        public static final int E4DSA=0x7f090008;
+        public static final int E4EFYS=0x7f090009;
+        public static final int E4IPR1=0x7f09000b;
+        public static final int E4IRT=0x7f09000a;
+        public static final int E4PRJ4=0x7f09000c;
+        public static final int EP4EEV=0x7f090017;
+        public static final int EP4IOA=0x7f090018;
+        public static final int EP4IPR1=0x7f090019;
+        public static final int EP4PRJ4=0x7f09001a;
+        public static final int Elektro=0x7f090016;
+        public static final int FifthSemester=0x7f090025;
+        public static final int FirstSemester=0x7f090021;
+        public static final int FourthSemester=0x7f090024;
         public static final int I1MSYS=0x7f090003;
         public static final int I1OPRG=0x7f090004;
-        public static final int I2ISE=0x7f090009;
-        public static final int I2OOP=0x7f09000b;
-        public static final int I3GFV=0x7f090016;
-        public static final int I3ISU=0x7f090017;
-        public static final int I3MPS=0x7f090018;
-        public static final int SecondSemester=0x7f09000e;
-        public static final int SeventhSemester=0x7f090013;
-        public static final int SixthSemester=0x7f090012;
-        public static final int ThirdSemester=0x7f09000f;
-        public static final int action_about=0x7f09001b;
-        public static final int action_email=0x7f09001c;
-        public static final int action_settings=0x7f09001a;
+        public static final int I2ISE=0x7f09001d;
+        public static final int I2OOP=0x7f09001f;
+        public static final int I3GFV=0x7f09002a;
+        public static final int I3ISU=0x7f09002b;
+        public static final int I3MPS=0x7f09002c;
+        public static final int I4DAB=0x7f09000d;
+        public static final int I4GUI=0x7f09000e;
+        public static final int I4IKN=0x7f09000f;
+        public static final int I4IPR1=0x7f090012;
+        public static final int I4PRJ4=0x7f090013;
+        public static final int I4SWD=0x7f090010;
+        public static final int I4SWT=0x7f090011;
+        public static final int IKT=0x7f090014;
+        public static final int SecondSemester=0x7f090022;
+        public static final int SeventhSemester=0x7f090027;
+        public static final int SixthSemester=0x7f090026;
+        public static final int Starkstrom=0x7f090015;
+        public static final int ThirdSemester=0x7f090023;
+        public static final int action_about=0x7f09002f;
+        public static final int action_email=0x7f090030;
+        public static final int action_settings=0x7f09002e;
     }
     public static final class layout {
         public static final int activity_e1_ide=0x7f030000;
@@ -78,19 +98,22 @@ public final class R {
         public static final int activity_e3_prj3=0x7f03000b;
         public static final int activity_fifth_semester_internship=0x7f03000c;
         public static final int activity_first_semester_pick_class=0x7f03000d;
-        public static final int activity_fourth_semester_pick_line=0x7f03000e;
-        public static final int activity_i1_msys=0x7f03000f;
-        public static final int activity_i1_oprg=0x7f030010;
-        public static final int activity_i2_ise=0x7f030011;
-        public static final int activity_i2_oop=0x7f030012;
-        public static final int activity_i3_gfv=0x7f030013;
-        public static final int activity_i3_isu=0x7f030014;
-        public static final int activity_i3_mps=0x7f030015;
-        public static final int activity_second_semester_pick_class=0x7f030016;
-        public static final int activity_select_semester=0x7f030017;
-        public static final int activity_seventh_semester_pick_line=0x7f030018;
-        public static final int activity_sixth_semester_pick_line=0x7f030019;
-        public static final int activity_third_semester_pick_class=0x7f03001a;
+        public static final int activity_fourth_semester_elektro=0x7f03000e;
+        public static final int activity_fourth_semester_ikt=0x7f03000f;
+        public static final int activity_fourth_semester_pick_line=0x7f030010;
+        public static final int activity_fourth_semester_starkstrom=0x7f030011;
+        public static final int activity_i1_msys=0x7f030012;
+        public static final int activity_i1_oprg=0x7f030013;
+        public static final int activity_i2_ise=0x7f030014;
+        public static final int activity_i2_oop=0x7f030015;
+        public static final int activity_i3_gfv=0x7f030016;
+        public static final int activity_i3_isu=0x7f030017;
+        public static final int activity_i3_mps=0x7f030018;
+        public static final int activity_second_semester_pick_class=0x7f030019;
+        public static final int activity_select_semester=0x7f03001a;
+        public static final int activity_seventh_semester_pick_line=0x7f03001b;
+        public static final int activity_sixth_semester_pick_line=0x7f03001c;
+        public static final int activity_third_semester_pick_class=0x7f03001d;
     }
     public static final class menu {
         public static final int e1_iklt=0x7f080000;
@@ -106,80 +129,107 @@ public final class R {
         public static final int e3_prj3=0x7f08000a;
         public static final int fifth_semester_pick_class=0x7f08000b;
         public static final int first_semester_pick_class=0x7f08000c;
-        public static final int fourth_semester_pick_class=0x7f08000d;
-        public static final int i1_msy=0x7f08000e;
-        public static final int i1_oprg=0x7f08000f;
-        public static final int i2_ise=0x7f080010;
-        public static final int i2_oo=0x7f080011;
-        public static final int i3_gfv=0x7f080012;
-        public static final int i3_isu=0x7f080013;
-        public static final int i3_m=0x7f080014;
-        public static final int ide=0x7f080015;
-        public static final int second_semester_pick_class=0x7f080016;
-        public static final int select_semester=0x7f080017;
-        public static final int seventh_semester_pick_class=0x7f080018;
-        public static final int sixth_semester_pick_class=0x7f080019;
-        public static final int third_semester_pick_class=0x7f08001a;
+        public static final int fourth_semester_elektro=0x7f08000d;
+        public static final int fourth_semester_ikt=0x7f08000e;
+        public static final int fourth_semester_pick_class=0x7f08000f;
+        public static final int fourth_semester_starkstrom=0x7f080010;
+        public static final int i1_msy=0x7f080011;
+        public static final int i1_oprg=0x7f080012;
+        public static final int i2_ise=0x7f080013;
+        public static final int i2_oo=0x7f080014;
+        public static final int i3_gfv=0x7f080015;
+        public static final int i3_isu=0x7f080016;
+        public static final int i3_m=0x7f080017;
+        public static final int ide=0x7f080018;
+        public static final int second_semester_pick_class=0x7f080019;
+        public static final int select_semester=0x7f08001a;
+        public static final int seventh_semester_pick_class=0x7f08001b;
+        public static final int sixth_semester_pick_class=0x7f08001c;
+        public static final int third_semester_pick_class=0x7f08001d;
     }
     public static final class string {
         /**  These are strings for 2nd Semester class names 
          */
         public static final int ASB=0x7f05001d;
+        /**  Elektro (E) 
+         */
+        public static final int ASD=0x7f05003e;
+        /**  IKT 
+         */
+        public static final int DAB=0x7f050037;
+        public static final int DSA=0x7f05003f;
         /**  These are strings for 3rd Semester class names 
          */
         public static final int DSB=0x7f050029;
         public static final int DSD=0x7f05001e;
-        /**  Detailed class names 
+        /**  These are strings for 6th Semester class names 
+ These are strings for 6th Semester head lines 
+ These are strings for 7th Semester class names 
+ These are strings for 7th Semester head lines 
+ Detailed class names 
          */
-        public static final int E1IDE=0x7f050037;
-        public static final int E1IKLT=0x7f050038;
-        public static final int E1MMLS=0x7f050039;
-        public static final int E1PRJ1=0x7f05003a;
-        public static final int E1VPR1=0x7f05003b;
-        public static final int E2ASB=0x7f05003e;
-        public static final int E2DSD=0x7f05003f;
-        public static final int E2MSA=0x7f050040;
-        public static final int E2PRJ2=0x7f050041;
-        public static final int E3DSB=0x7f050044;
-        public static final int E3MSE=0x7f050045;
-        public static final int E3PRJ3=0x7f050046;
-        public static final int E4ASD=0x7f05004a;
-        public static final int E4DSA=0x7f05004b;
-        public static final int E4EFYS=0x7f05004c;
-        public static final int E4IPR1=0x7f05004d;
-        public static final int E4IRT=0x7f05004e;
-        public static final int E4PRJ4=0x7f05004f;
-        public static final int E5IPR1=0x7f05005b;
-        public static final int EP4EEV=0x7f050050;
-        public static final int EP4IOA=0x7f050051;
-        public static final int EP4IPR=0x7f050052;
-        public static final int EP4PRJ=0x7f050053;
-        public static final int EP5IPR=0x7f05005c;
+        public static final int E1IDE=0x7f050045;
+        public static final int E1IKLT=0x7f050046;
+        public static final int E1MMLS=0x7f050047;
+        public static final int E1PRJ1=0x7f050048;
+        public static final int E1VPR1=0x7f050049;
+        public static final int E2ASB=0x7f05004c;
+        public static final int E2DSD=0x7f05004d;
+        public static final int E2MSA=0x7f05004e;
+        public static final int E2PRJ2=0x7f05004f;
+        public static final int E3DSB=0x7f050052;
+        public static final int E3MSE=0x7f050053;
+        public static final int E3PRJ3=0x7f050054;
+        public static final int E4ASD=0x7f050058;
+        public static final int E4DSA=0x7f050059;
+        public static final int E4EFYS=0x7f05005a;
+        public static final int E4IPR1=0x7f05005b;
+        public static final int E4IRT=0x7f05005c;
+        public static final int E4PRJ4=0x7f05005d;
+        public static final int E5IPR1=0x7f050069;
+        /**  Starkstrom (EP) 
+         */
+        public static final int EEV=0x7f05003c;
+        public static final int EFYS=0x7f050040;
+        public static final int EP4EEV=0x7f05005e;
+        public static final int EP4IOA=0x7f05005f;
+        public static final int EP4IPR=0x7f050060;
+        public static final int EP4PRJ=0x7f050061;
+        public static final int EP5IPR=0x7f05006a;
+        public static final int Elektro=0x7f05006e;
         public static final int FifthSemester=0x7f050005;
         /**  These are strings for all Semester names (Front page) 
          */
         public static final int FirstSemester=0x7f050001;
         public static final int FourthSemester=0x7f050004;
         public static final int GFV=0x7f05002c;
-        public static final int I1MSYS=0x7f05003c;
-        public static final int I1OPRG=0x7f05003d;
-        public static final int I2ISE=0x7f050042;
-        public static final int I2OOP=0x7f050043;
-        public static final int I3GFV=0x7f050047;
-        public static final int I3ISU=0x7f050048;
-        public static final int I3MPS=0x7f050049;
-        public static final int I4DAB=0x7f050054;
-        public static final int I4GUI=0x7f050055;
-        public static final int I4IKN=0x7f050056;
-        public static final int I4IPR1=0x7f050057;
-        public static final int I4PRJ4=0x7f050058;
-        public static final int I4SWD=0x7f050059;
-        public static final int I4SWT=0x7f05005a;
-        public static final int I5IPR1=0x7f05005d;
+        public static final int GUI=0x7f050038;
+        public static final int I1MSYS=0x7f05004a;
+        public static final int I1OPRG=0x7f05004b;
+        public static final int I2ISE=0x7f050050;
+        public static final int I2OOP=0x7f050051;
+        public static final int I3GFV=0x7f050055;
+        public static final int I3ISU=0x7f050056;
+        public static final int I3MPS=0x7f050057;
+        public static final int I4DAB=0x7f050062;
+        public static final int I4GUI=0x7f050063;
+        public static final int I4IKN=0x7f050064;
+        public static final int I4IPR1=0x7f050065;
+        public static final int I4PRJ4=0x7f050066;
+        public static final int I4SWD=0x7f050067;
+        public static final int I4SWT=0x7f050068;
+        public static final int I5IPR1=0x7f05006b;
         /**  These are strings for 1st Semester class names 
          */
         public static final int IDE=0x7f05000f;
         public static final int IKLT=0x7f050010;
+        public static final int IKN=0x7f050039;
+        /**  These are strings for line names 
+         */
+        public static final int IKT=0x7f05006c;
+        public static final int IOA=0x7f05003d;
+        public static final int IPR1=0x7f050036;
+        public static final int IRT=0x7f050041;
         public static final int ISE=0x7f050021;
         public static final int ISU=0x7f05002d;
         public static final int MMLS=0x7f050011;
@@ -187,32 +237,37 @@ public final class R {
         public static final int MSA=0x7f05001f;
         public static final int MSE=0x7f05002a;
         public static final int MSYS=0x7f050014;
-        public static final int NYI=0x7f050061;
+        public static final int NYI=0x7f050072;
         public static final int OOP=0x7f050022;
         public static final int OPRG=0x7f050015;
         public static final int PRJ1=0x7f050012;
         public static final int PRJ2=0x7f050020;
         public static final int PRJ3=0x7f05002b;
         /**  These are strings for 4th Semester class names 
- These are strings for 4th Semester head lines 
- These are strings for 5th Semester 
+ Fælles string navne 
          */
-        public static final int Praktik1=0x7f050035;
-        public static final int Praktik2=0x7f050036;
+        public static final int PRJ4=0x7f050035;
+        /**  These are strings for 5th Semester 
+         */
+        public static final int Praktik1=0x7f050043;
+        public static final int Praktik2=0x7f050044;
+        public static final int SWD=0x7f05003a;
+        public static final int SWT=0x7f05003b;
         public static final int SecondSemester=0x7f050002;
         public static final int SeventhSemester=0x7f050007;
         public static final int SixthSemester=0x7f050006;
+        public static final int Starkstrom=0x7f05006d;
         public static final int ThirdSemester=0x7f050003;
         public static final int VPR=0x7f050013;
-        public static final int action_about=0x7f05005f;
-        public static final int action_email=0x7f050060;
+        public static final int action_about=0x7f050070;
+        public static final int action_email=0x7f050071;
         /**  Extra 
          */
-        public static final int action_settings=0x7f05005e;
+        public static final int action_settings=0x7f05006f;
         /**  Application Name string 
          */
         public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050062;
+        public static final int hello_world=0x7f050073;
         /**  These are strings for 1st Semester head lines 
          */
         public static final int title_activity_e1_ide=0x7f050016;
@@ -235,7 +290,12 @@ public final class R {
         /**  These are strings for each Semester pages head lines 
          */
         public static final int title_activity_first_semester_pick_class=0x7f050008;
+        public static final int title_activity_fourth_semester_elektro=0x7f050075;
+        /**  These are strings for 4th Semester head lines 
+         */
+        public static final int title_activity_fourth_semester_ikt=0x7f050042;
         public static final int title_activity_fourth_semester_pick_line=0x7f05000b;
+        public static final int title_activity_fourth_semester_starkstrom=0x7f050074;
         public static final int title_activity_i1_msys=0x7f05001b;
         public static final int title_activity_i1_oprg=0x7f05001c;
         public static final int title_activity_i2_ise=0x7f050027;

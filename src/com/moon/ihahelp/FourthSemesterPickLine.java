@@ -2,7 +2,11 @@ package com.moon.ihahelp;
 
 import android.os.Bundle;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.os.Build;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class FourthSemesterPickLine extends ExtendsDefault {
 
@@ -12,6 +16,37 @@ public class FourthSemesterPickLine extends ExtendsDefault {
 		setContentView(R.layout.activity_fourth_semester_pick_line);
 		// Show the Up button in the action bar.
 		setupActionBar();
+		
+		Button IKT = (Button) findViewById(R.id.IKT);
+		IKT.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View viewName) 
+				{
+					Intent intentName = new Intent(viewName.getContext(), FourthSemesterIKT.class);
+					startActivityForResult(intentName, 0); 
+				}
+			} );
+		
+		Button Starkstrom = (Button) findViewById(R.id.Starkstrom);
+		Starkstrom.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View viewName) 
+				{
+					Intent intentName = new Intent(viewName.getContext(), FourthSemesterStarkstrom.class);
+					startActivityForResult(intentName, 0); 
+				}
+			} );
+		
+		Button Elektro = (Button) findViewById(R.id.Elektro);
+		Elektro.setOnClickListener(new OnClickListener() 
+			{
+				public void onClick(View viewName) 
+				{
+					Intent intentName = new Intent(viewName.getContext(), FourthSemesterElektro.class);
+					startActivityForResult(intentName, 0); 
+				}
+			} );
+		
 	}
 
 	/**

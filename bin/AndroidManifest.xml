@@ -230,6 +230,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moon.ihahelp.ThirdSemesterPickClass" />
         </activity>
+        <activity
+            android:name="com.moon.ihahelp.FourthSemesterIKT"
+            android:label="@string/title_activity_fourth_semester_ikt"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterPickLine" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterPickLine" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.FourthSemesterStarkstrom"
+            android:label="@string/title_activity_fourth_semester_starkstrom"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterPickLine" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterPickLine" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.FourthSemesterElektro"
+            android:label="@string/title_activity_fourth_semester_elektro"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterPickLine" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterPickLine" />
+        </activity>
     </application>
 
 </manifest>
