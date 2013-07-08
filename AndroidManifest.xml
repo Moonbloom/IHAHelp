@@ -254,6 +254,94 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moon.ihahelp.FourthSemesterPickLine" />
         </activity>
+        <activity
+            android:name="com.moon.ihahelp.E4ASD"
+            android:label="@string/title_activity_e4_asd"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterElektro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterElektro" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.E4DSA"
+            android:label="@string/title_activity_e4_ds"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterElektro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterElektro" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.E4EFYS"
+            android:label="@string/title_activity_e4_efys"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterElektro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterElektro" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.E4IRT"
+            android:label="@string/title_activity_e4_irt"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterElektro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterElektro" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.EP4EEV"
+            android:label="@string/title_activity_ep4_eev"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterStarkstrom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterStarkstrom" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.EP4IOA"
+            android:label="@string/title_activity_ep4_io"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterStarkstrom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterStarkstrom" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.I4DAB"
+            android:label="@string/title_activity_i4_dab"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterIKT" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterIKT" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.I4GUI"
+            android:label="@string/title_activity_i4_gui"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterIKT" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterIKT" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.I4IKN"
+            android:label="@string/title_activity_i4_ikn"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterIKT" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterIKT" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.I4SWD"
+            android:label="@string/title_activity_i4_swd"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterIKT" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterIKT" />
+        </activity>
+        <activity
+            android:name="com.moon.ihahelp.I4SWT"
+            android:label="@string/title_activity_i4_swt"
+            android:parentActivityName="com.moon.ihahelp.FourthSemesterIKT" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moon.ihahelp.FourthSemesterIKT" />
+        </activity>
     </application>
 
 </manifest>

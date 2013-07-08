@@ -92,9 +92,23 @@
     <string name="IRT">IRT</string>
 
     <!-- These are strings for 4th Semester head lines -->
+    <!-- IKT -->
     <string name="title_activity_fourth_semester_ikt">4. Semester - IKT</string>
+    <string name="title_activity_i4_dab">DAB</string>
+    <string name="title_activity_i4_gui">GUI</string>
+    <string name="title_activity_i4_ikn">IKN</string>
+    <string name="title_activity_i4_swd">SWD</string>
+    <string name="title_activity_i4_swt">SWT</string>
+    <!-- Starkstrom (EP) -->
     <string name="title_activity_fourth_semester_starkstrom">4. Semester - Stærkstrøm</string>
+    <string name="title_activity_ep4_eev">EEV</string>
+    <string name="title_activity_ep4_io">IOA</string>
+    <!-- Elektro (E) -->
     <string name="title_activity_fourth_semester_elektro">4. Semester - Elektro</string>
+    <string name="title_activity_e4_asd">ASD</string>
+    <string name="title_activity_e4_ds">DSA</string>
+    <string name="title_activity_e4_efys">EFYS</string>
+    <string name="title_activity_e4_irt">IRT</string>
 
     <!-- These are strings for 5th Semester -->
     <string name="Praktik1">You are at an internship this semester.</string>
@@ -170,5 +184,7 @@
     <string name="action_email">Email me</string>
     <string name="NYI">This page is NYI - Not Yet Implemented.</string>
     <string name="hello_world">Hello world!</string>
+
+    <!-- New default ones (Hopefully there are none here) -->
 
 </resources>
