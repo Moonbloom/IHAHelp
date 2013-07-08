@@ -8,14 +8,14 @@
     android:background="@drawable/black_tiles_background" >
     
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Praktik1"
 		android:textColor="@color/White"
 		android:gravity="center" />
     
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Praktik2"
         android:textColor="@color/White"

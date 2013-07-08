@@ -7,6 +7,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/black_tiles_background" >
     
+	<com.moon.ihahelp.master_button
+		android:id="@+id/Testy"
+		android:text="@string/IDE"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+    
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -18,11 +24,8 @@
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
     
-    <View
-		android:layout_width="match_parent"
-		android:layout_height="0.5dp"
-		android:background="@android:color/white" />
-
+	<include layout="@layout/button_divider" />
+    
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -34,10 +37,7 @@
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
 
-    <View
-		android:layout_width="match_parent"
-		android:layout_height="0.5dp"
-		android:background="@android:color/white" />
+	<include layout="@layout/button_divider" />
     
     <Button
         android:layout_width="match_parent"
@@ -50,10 +50,7 @@
         android:textColor="@color/Blue"
 		android:background="@android:color/transparent" />
 
-    <View
-		android:layout_width="match_parent"
-		android:layout_height="0.5dp"
-		android:background="@android:color/white" />
+	<include layout="@layout/button_divider" />
     
     <Button
         android:layout_width="match_parent"
@@ -66,10 +63,7 @@
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
     
-    <View
-		android:layout_width="match_parent"
-		android:layout_height="0.5dp"
-		android:background="@android:color/white" />
+	<include layout="@layout/button_divider" />
     
     <Button
         android:layout_width="match_parent"
@@ -82,10 +76,7 @@
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
     
-    <View
-		android:layout_width="match_parent"
-		android:layout_height="0.5dp"
-		android:background="@android:color/white" />
+    <include layout="@layout/button_divider" />
     
     <Button
         android:layout_width="match_parent"
@@ -98,10 +89,7 @@
         android:textColor="@color/Blue"
         android:background="@android:color/transparent" />
     
-    <View
-		android:layout_width="match_parent"
-		android:layout_height="0.5dp"
-		android:background="@android:color/white" />
+    <include layout="@layout/button_divider" />
     
     <Button
         android:layout_width="match_parent"
